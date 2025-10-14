@@ -6,7 +6,6 @@ from config import TOKEN, PREFIX
 intents = discord.Intents.default()
 intents.message_content = True
 
-# Create a bot that supports both prefix and slash commands
 bot = commands.Bot(command_prefix=PREFIX, intents=intents)
 
 @bot.event
