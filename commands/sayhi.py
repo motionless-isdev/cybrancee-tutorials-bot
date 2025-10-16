@@ -10,5 +10,7 @@ class Hi(commands.Cog):
         """HIIIIIII"""
         await ctx.send("Hiiiiii!")
 
+        # Hello this is a change
+
 async def setup(bot):
     await bot.add_cog(Hi(bot))
