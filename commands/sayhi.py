@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-class Hi(commands.Cog):
+class SayHi(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
@@ -13,4 +13,4 @@ class Hi(commands.Cog):
         # Hello this is a change
 
 async def setup(bot):
-    await bot.add_cog(Hi(bot))
+    await bot.add_cog(SayHi(bot))
